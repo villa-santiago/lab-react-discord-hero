@@ -1,9 +1,14 @@
 // src/App.jsx
 import './App.css';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Header />
+      <HeroSection />
+    </div>
   );
 }
 
